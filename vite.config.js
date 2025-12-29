@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'vue-auth-demo',
+  base: '/vue-auth-demo/',
   plugins: [vue(), tailwindcss()],
 })
